@@ -1,0 +1,6 @@
+framework module DTLoadingIndicator {
+  umbrella header "DTLoadingIndicator-umbrella.h"
+
+  export *
+  module * { export * }
+}
