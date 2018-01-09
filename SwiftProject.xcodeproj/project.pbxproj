@@ -10,18 +10,20 @@
 		0C94C22E511ACC598D4C35CF /* Pods_SwiftProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBB2AE25FD58FCAC6E8037DB /* Pods_SwiftProjectUITests.framework */; };
 		5F52BB275C370F9FA3635327 /* Pods_SwiftProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80BDC553C7E0AF1C2263E7CA /* Pods_SwiftProject.framework */; };
 		687630A19C85196FCFCA07EC /* Pods_SwiftProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC6D7EE60A85654DA9C2212D /* Pods_SwiftProjectTests.framework */; };
+		841359891FFFCB63007BB02C /* PropertySearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841359881FFFCB63007BB02C /* PropertySearchViewController.swift */; };
+		8422F4961FFCDF290003B48B /* PropertyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8422F4951FFCDF290003B48B /* PropertyTableViewCell.swift */; };
+		8422F4981FFCE4A90003B48B /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8422F4971FFCE4A90003B48B /* Property.swift */; };
+		8497673720009A4B008A4D94 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8497673620009A4B008A4D94 /* Default.png */; };
+		8497673920009CD7008A4D94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8497673820009CD7008A4D94 /* LaunchScreen.storyboard */; };
 		849E94271FF9D18900094FE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849E94261FF9D18900094FE4 /* AppDelegate.swift */; };
 		849E942C1FF9D18900094FE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849E942A1FF9D18900094FE4 /* Main.storyboard */; };
 		849E942E1FF9D18900094FE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849E942D1FF9D18900094FE4 /* Assets.xcassets */; };
-		849E94311FF9D18900094FE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849E942F1FF9D18900094FE4 /* LaunchScreen.storyboard */; };
 		849E943C1FF9D18A00094FE4 /* SwiftProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849E943B1FF9D18A00094FE4 /* SwiftProjectTests.swift */; };
 		849E94471FF9D18A00094FE4 /* SwiftProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849E94461FF9D18A00094FE4 /* SwiftProjectUITests.swift */; };
 		849E94551FF9D35400094FE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849E94541FF9D35400094FE4 /* ViewController.swift */; };
-		849E94571FF9D39800094FE4 /* SearchTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849E94561FF9D39800094FE4 /* SearchTableTableViewController.swift */; };
 		849E94591FF9D3F500094FE4 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849E94581FF9D3F500094FE4 /* RegisterViewController.swift */; };
 		849E945B1FF9D43100094FE4 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849E945A1FF9D43100094FE4 /* SearchViewController.swift */; };
 		849E945D1FF9D4EA00094FE4 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849E945C1FF9D4EA00094FE4 /* ProfileViewController.swift */; };
-		849E945F1FF9D52E00094FE4 /* searchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849E945E1FF9D52E00094FE4 /* searchTableViewCell.swift */; };
 		849E94611FF9D56500094FE4 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849E94601FF9D56500094FE4 /* ForgotPasswordViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -47,11 +49,15 @@
 		44FCDC11C38107CA0EE06FC4 /* Pods-SwiftProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftProject/Pods-SwiftProject.debug.xcconfig"; sourceTree = "<group>"; };
 		7F5ABFE9E05EB252617E417B /* Pods-SwiftProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftProjectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftProjectTests/Pods-SwiftProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
 		80BDC553C7E0AF1C2263E7CA /* Pods_SwiftProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		841359881FFFCB63007BB02C /* PropertySearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertySearchViewController.swift; sourceTree = "<group>"; };
+		8422F4951FFCDF290003B48B /* PropertyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyTableViewCell.swift; sourceTree = "<group>"; };
+		8422F4971FFCE4A90003B48B /* Property.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Property.swift; sourceTree = "<group>"; };
+		8497673620009A4B008A4D94 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8497673820009CD7008A4D94 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		849E94231FF9D18900094FE4 /* SwiftProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		849E94261FF9D18900094FE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		849E942B1FF9D18900094FE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		849E942D1FF9D18900094FE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		849E94301FF9D18900094FE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		849E94321FF9D18900094FE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		849E94371FF9D18A00094FE4 /* SwiftProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		849E943B1FF9D18A00094FE4 /* SwiftProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftProjectTests.swift; sourceTree = "<group>"; };
@@ -60,11 +66,9 @@
 		849E94461FF9D18A00094FE4 /* SwiftProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftProjectUITests.swift; sourceTree = "<group>"; };
 		849E94481FF9D18A00094FE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		849E94541FF9D35400094FE4 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		849E94561FF9D39800094FE4 /* SearchTableTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableTableViewController.swift; sourceTree = "<group>"; };
 		849E94581FF9D3F500094FE4 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		849E945A1FF9D43100094FE4 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		849E945C1FF9D4EA00094FE4 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
-		849E945E1FF9D52E00094FE4 /* searchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = searchTableViewCell.swift; sourceTree = "<group>"; };
 		849E94601FF9D56500094FE4 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		9E3D82892DD4B9BD1FA12C5A /* Pods-SwiftProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftProjectUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftProjectUITests/Pods-SwiftProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		AC6D7EE60A85654DA9C2212D /* Pods_SwiftProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -139,17 +143,10 @@
 		849E94251FF9D18900094FE4 /* SwiftProject */ = {
 			isa = PBXGroup;
 			children = (
-				849E94541FF9D35400094FE4 /* ViewController.swift */,
-				849E94561FF9D39800094FE4 /* SearchTableTableViewController.swift */,
-				849E94601FF9D56500094FE4 /* ForgotPasswordViewController.swift */,
-				849E94581FF9D3F500094FE4 /* RegisterViewController.swift */,
-				849E945A1FF9D43100094FE4 /* SearchViewController.swift */,
-				849E945C1FF9D4EA00094FE4 /* ProfileViewController.swift */,
-				849E945E1FF9D52E00094FE4 /* searchTableViewCell.swift */,
-				849E94261FF9D18900094FE4 /* AppDelegate.swift */,
-				849E942A1FF9D18900094FE4 /* Main.storyboard */,
 				849E942D1FF9D18900094FE4 /* Assets.xcassets */,
-				849E942F1FF9D18900094FE4 /* LaunchScreen.storyboard */,
+				849E94261FF9D18900094FE4 /* AppDelegate.swift */,
+				849E94651FF9F64400094FE4 /* View */,
+				849E94641FF9F62500094FE4 /* ViewController */,
 				849E94321FF9D18900094FE4 /* Info.plist */,
 			);
 			path = SwiftProject;
@@ -171,6 +168,31 @@
 				849E94481FF9D18A00094FE4 /* Info.plist */,
 			);
 			path = SwiftProjectUITests;
+			sourceTree = "<group>";
+		};
+		849E94641FF9F62500094FE4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				849E94541FF9D35400094FE4 /* ViewController.swift */,
+				849E94601FF9D56500094FE4 /* ForgotPasswordViewController.swift */,
+				849E94581FF9D3F500094FE4 /* RegisterViewController.swift */,
+				849E945C1FF9D4EA00094FE4 /* ProfileViewController.swift */,
+				849E945A1FF9D43100094FE4 /* SearchViewController.swift */,
+				841359881FFFCB63007BB02C /* PropertySearchViewController.swift */,
+				8422F4951FFCDF290003B48B /* PropertyTableViewCell.swift */,
+				8422F4971FFCE4A90003B48B /* Property.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		849E94651FF9F64400094FE4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8497673620009A4B008A4D94 /* Default.png */,
+				8497673820009CD7008A4D94 /* LaunchScreen.storyboard */,
+				849E942A1FF9D18900094FE4 /* Main.storyboard */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 		AAEC2300640CA630ACF39167 /* Frameworks */ = {
@@ -299,9 +321,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				849E94311FF9D18900094FE4 /* LaunchScreen.storyboard in Resources */,
 				849E942E1FF9D18900094FE4 /* Assets.xcassets in Resources */,
+				8497673920009CD7008A4D94 /* LaunchScreen.storyboard in Resources */,
 				849E942C1FF9D18900094FE4 /* Main.storyboard in Resources */,
+				8497673720009A4B008A4D94 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,15 +383,19 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-SwiftProject/Pods-SwiftProject-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/DTLoadingIndicator/DTLoadingIndicator.framework",
 				"${BUILT_PRODUCTS_DIR}/FLAnimatedImage/FLAnimatedImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DTLoadingIndicator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLAnimatedImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,12 +511,13 @@
 			files = (
 				849E94611FF9D56500094FE4 /* ForgotPasswordViewController.swift in Sources */,
 				849E945D1FF9D4EA00094FE4 /* ProfileViewController.swift in Sources */,
+				8422F4981FFCE4A90003B48B /* Property.swift in Sources */,
+				8422F4961FFCDF290003B48B /* PropertyTableViewCell.swift in Sources */,
 				849E945B1FF9D43100094FE4 /* SearchViewController.swift in Sources */,
 				849E94551FF9D35400094FE4 /* ViewController.swift in Sources */,
 				849E94271FF9D18900094FE4 /* AppDelegate.swift in Sources */,
-				849E94571FF9D39800094FE4 /* SearchTableTableViewController.swift in Sources */,
+				841359891FFFCB63007BB02C /* PropertySearchViewController.swift in Sources */,
 				849E94591FF9D3F500094FE4 /* RegisterViewController.swift in Sources */,
-				849E945F1FF9D52E00094FE4 /* searchTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -531,14 +559,6 @@
 				849E942B1FF9D18900094FE4 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		849E942F1FF9D18900094FE4 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				849E94301FF9D18900094FE4 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

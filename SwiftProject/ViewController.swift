@@ -21,7 +21,9 @@ class ViewController: UIViewController {
    
     override func viewDidLoad() {
             super.viewDidLoad()
-         
+        
+        self.title = " "
+
             // Receive
             print("hello from home")
             if let name = UserDefaults.standard.string(forKey: "username"), let email = UserDefaults.standard.string(forKey: "email"), let password = UserDefaults.standard.string(forKey: "password")

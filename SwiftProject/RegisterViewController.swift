@@ -21,7 +21,8 @@ class RegisterViewController: UIViewController {
     
     override func viewDidLoad() {
         //1- make keyboard disappers when touchs outside
-        
+        self.title = " "
+
         //Looks for single or multiple taps.
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(ViewController.dismissKeyboard))
         
@@ -64,7 +65,7 @@ class RegisterViewController: UIViewController {
         let RegisterEmail = emailTxt.text
         let RegisterPassword :String = passwordTxt.text!
         let RegisterConfirmPassword :String = confirmPasswordTxt.text!
-        var RegiserAge :String = ageTxt.text!
+        let RegiserAge :String = ageTxt.text!
         
         //validation
         
@@ -83,7 +84,7 @@ class RegisterViewController: UIViewController {
             let Test = NSPredicate(format:"SELF MATCHES %@", RegEx)
             if (Test.evaluate(with: RegisterfullName)){
                 //alert
-                let alert = UIAlertController(title: "", message: "username must start and end with a letter!", preferredStyle: UIAlertControllerStyle.alert)
+                let alert = UIAlertController(title: "", message: "username must start awith capital letters", preferredStyle: UIAlertControllerStyle.alert)
                 alert.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.default, handler: nil))
                 self.present(alert, animated: true, completion: nil)
                 //end of alert
@@ -191,6 +192,7 @@ class RegisterViewController: UIViewController {
         
         UserDefaults.standard.setValue(RegiserAge, forKey: "age")
         
+        //change controller
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let vc = storyboard.instantiateViewController(withIdentifier: "ViewController") as UIViewController
         self.navigationController?.pushViewController(vc, animated: true)

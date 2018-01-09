@@ -6,4 +6,16 @@
 //  Copyright © 2018 eman. All rights reserved.
 //
 
-import Foundation
+class Property{
+    var title: String?
+    var price: String?
+    var imageUrl: String?
+    
+    init(title: String?, price: String?, imageUrl: String?) {
+        self.title = title
+        self.price = price
+        self.imageUrl = imageUrl
+    }
+    
+    
+}

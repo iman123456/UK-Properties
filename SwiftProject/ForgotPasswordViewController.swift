@@ -10,6 +10,7 @@ import UIKit
 
 class ForgotPasswordViewController: UIViewController {
 
+    @IBOutlet weak var email: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -22,6 +23,15 @@ class ForgotPasswordViewController: UIViewController {
     }
     
 
+    @IBAction func resetBtn(_ sender: UIButton) {
+        if email.text != ""{
+            //alert
+            let alert = UIAlertController(title: "", message: "your password have been sent to your e-mail!", preferredStyle: UIAlertControllerStyle.alert)
+            alert.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.default, handler: nil))
+            self.present(alert, animated: true, completion: nil)
+            //end of alert
+        }
+    }
     /*
     // MARK: - Navigation
 

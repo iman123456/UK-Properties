@@ -7,26 +7,36 @@
 //
 
 import UIKit
-
+import DTLoadingIndicator
 class SearchViewController: UIViewController {
     
     var menuShowing = false
     
+//    @IBOutlet weak var city: UITextField!
+//    @IBOutlet weak var propertyType: UITextField!
+    
+    @IBOutlet weak var typeSearch: UITextField!
+    @IBOutlet weak var citySearch: UITextField!
     @IBOutlet weak var ParentView: UIView!
     
     @IBOutlet weak var subView: UIView!
     @IBOutlet weak var viewLeading: NSLayoutConstraint!
-    @IBOutlet weak var txtSearch: UITextField!
+
+  
+//    var property_Type = propertyType.text
+
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         subView.layer.shadowOpacity = 1
         subView.layer.shadowRadius = 5
-        //display indicator`
-        //        DTLoadingIndicator.startFullScreenLoadingIndicator()
-        //end of calling indicator
+//        display indicator`
+//                DTLoadingIndicator.startFullScreenLoadingIndicator()
+//        end of calling indicator
         
-        //1- make keyboard disappers when touchs outside
+//        1- make keyboard disappers when touchs outside
         
         //Looks for single or multiple taps.
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(ViewController.dismissKeyboard))
@@ -66,19 +76,48 @@ class SearchViewController: UIViewController {
      */
     
     @IBAction func btnSearch(_ sender: UIButton) {
-        let search = txtSearch.text
-        if search == "" {
+       
+        if citySearch.text == "" {
             //alert
             let alert = UIAlertController(title: "", message: "enter the city!", preferredStyle: UIAlertControllerStyle.alert)
             alert.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.default, handler: nil))
             self.present(alert, animated: true, completion: nil)
             //end of alert
         }
+        
+        if !(citySearch.text == "London" || citySearch.text == "Northern Ireland" || citySearch.text == "Scotland" || citySearch.text == "Wales") {
+            //alert
+            let alert = UIAlertController(title: "", message: "enter a valid city!", preferredStyle: UIAlertControllerStyle.alert)
+            alert.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.default, handler: nil))
+            self.present(alert, animated: true, completion: nil)
+            //end of alert
+        }
+        
+        if typeSearch.text == "" {
+            //alert
+            let alert = UIAlertController(title: "", message: "enter the type!", preferredStyle: UIAlertControllerStyle.alert)
+            alert.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.default, handler: nil))
+            self.present(alert, animated: true, completion: nil)
+            //end of alert
+        }
+        
+        if !( typeSearch.text == "rent" ||  typeSearch.text == "sharing" || typeSearch.text == "buy" ){
+            //alert
+            let alert = UIAlertController(title: "", message: "enter a valid type!", preferredStyle: UIAlertControllerStyle.alert)
+            alert.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.default, handler: nil))
+            self.present(alert, animated: true, completion: nil)
+            //end of alert
+        }
+
         else{
-            // Setting
+            UserDefaults.standard.setValue(citySearch.text, forKey: "city")
+            print("\(UserDefaults.standard.value(forKey: "city")!)")
             
-            UserDefaults.standard.setValue(search, forKey: "search")
-            print("\(UserDefaults.standard.value(forKey: "search")!)")//        // Getting
+            UserDefaults.standard.setValue(typeSearch.text, forKey: "typeP")
+            print("\(UserDefaults.standard.value(forKey: "typeP")!)")
+            
+
+
             
         }
     }

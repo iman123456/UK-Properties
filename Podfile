@@ -5,7 +5,9 @@
       pod 'Alamofire'
       pod 'SwiftyJSON'
       pod "DTLoadingIndicator"
-
+      pod 'AlamofireImage', '~> 3.1'
+      pod 'SDWebImage'
+      pod 'UIActivityIndicator-for-SDWebImage'
 
 
   end

@@ -10,10 +10,14 @@ import UIKit
 
 class PropertyTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var propertyImage: UIImageView!
+    @IBOutlet weak var propertyTitle: UILabel!
+    @IBOutlet weak var propertyPrice: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
-    }
+        self.propertyTitle.layer.cornerRadius = 5
+        self.propertyTitle.layer.masksToBounds = true    }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
